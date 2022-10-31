@@ -110,6 +110,9 @@ button {
     color: var(--links-conact-hover-focus);
 }
 
+.links-conact:focus {
+    color: var(--links-conact-hover-focus);
+}
 .links-conact {
     list-style: none;
     text-decoration: none;
@@ -149,11 +152,22 @@ button {
 
 
 .button-push {
-      
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.06em; 
         background: var(--button-push-background);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         color: var(--order-button-color);
+}
+
+.button-push:hover {
+    color: var(--order-button-color);
+}
+
+.button-push:focus {
+    color: var(--order-button-color);
 }
 
 .button-push:active {
@@ -269,6 +283,7 @@ button {
     }
 
     .filter-tytle:hover {
+        color: var(--filter-title-background);
         background-color: var(--filter-title-hover);
     }
 
