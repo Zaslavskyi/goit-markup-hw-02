@@ -163,11 +163,11 @@ button {
 }
 
 .button-push:hover {
-    color: var(--order-button-color);
+    background-color: var(--button-push-active);
 }
 
 .button-push:focus {
-    color: var(--order-button-color);
+    background-color: var(--button-push-active);
 }
 
 .button-push:active {
