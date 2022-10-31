@@ -13,23 +13,61 @@ p {
     text-decoration: none;
 }
 
+:root {
+    --background-color1: #000;
+    --background-color2: #fff;
+    --description-text: #757575;
+    --hedertext: #212121;
+    --logo-beg: #2196F3;
+    --logo-end: #000;
+    --logo-end-down: #fff;
+    --header: #212121;
+    --links: #212121;
+    --links-hover: #2196F3;
+    --links-contact: #757575;
+    --links-conact-hover-focus: #2196F3;
+    --order-background-color: #2F303A;
+    --desigion-color: #fff;
+    --button-push-background: #2196F3;
+    --button-push-active: #188CE8;
+    --order-button-color: #fff;
+    --advantage-color: #212121;
+    --advantage-title-color: #757575;
+    --work-color: #212121;
+    --team-color-background: #F5F4FA;
+    --name: #212121;
+    --prof-color: #757575;
+    --footer-background: #2F303A;
+    --address-color: #fff;
+    --footer-link: rgba(255, 255, 255, 0.6);
+    --filter-title-color: #212121;
+    --filter-title-background: #fff;
+    --filter-title-hover: #2196F3;
+    --filter-color: #212121;
+    --filter-work: #757575;
+    --work-title: #212121;
+}
+
 body {
     font-family: 'Roboto';
     font-style: normal;
-    color: #212121;
-    background: #fff;
+    color: var(--background-color1);
+    background: var(--background-color2);
 }
 li {
     list-style: none;
 }
 
+button {
+    font-family: 'Roboto' ;
+    cursor: pointer;
+}
 
 .header {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.1428;
         letter-spacing: 0.02em;
-        color: #212121;
         
 }
 
@@ -40,7 +78,7 @@ li {
             font-size: 26px;
             line-height: 1.1923;
             letter-spacing: 0.03em;
-            color: #2196F3;
+            color: var(--logo-beg);
 }
 
 .logo-end {
@@ -50,7 +88,7 @@ li {
             font-size: 26px;
             line-height: 1.1923;
             letter-spacing: 0.03em;
-            color: #000;
+            color: var(--logo-end);
 }
 
 .logo-end-down {
@@ -60,18 +98,30 @@ li {
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
-    color: #FFFFFF;}
-
-.links {
-    color: #212121;
+    color: var(--logo-end-down);
 }
 
+
+.links {
+    color: var(--links);
+}
+
+.links-conact:hover {
+    color: var(--links-conact-hover-focus);
+}
+
+.links-conact {
+    text-decoration: none;
+    color: var(--links-contact);
+}
+
+
 .links:hover {
-    color: #2196F3;
+    color: var(--links-hover);
 }
 
 .links:focus {
-    color: #2196F3;
+    color: var(--links-hover);
 }
 
 
@@ -81,11 +131,8 @@ li {
 
 
 .order {
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-        background: #2F303A;
+       
+        background: var(--order-background-color);
 }
 
 .desigion {
@@ -95,17 +142,21 @@ li {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: var(--desigion-color);
 }
 
+
+
 .button-push {
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
-        background: #2196F3;
+      
+        background: var(--button-push-background);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+        color: var(--order-button-color);
+}
+
+.button-push:active {
+    background-color: var(--button-push-active);
 }
 
 .order-button {
@@ -116,7 +167,7 @@ li {
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-        color: #FFFFFF;
+        color: var(--order-button-color);
 }
 
 .visually-hidden {
@@ -136,7 +187,7 @@ li {
         line-height: 1.1428;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #212121;
+        color: var(--advantage-color);
 }
 
 .advantage-title {
@@ -144,7 +195,7 @@ li {
         font-size: 14px;
         line-height: 1.7142;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--advantage-title-color);
 }
 
 .work {
@@ -153,11 +204,11 @@ li {
         line-height: 1.1666;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--work-color);
 }
 
 .team {
-        background: #F5F4FA;
+        background: var(--team-color-background);
 }
 
 
@@ -167,7 +218,7 @@ li {
     line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--name);
 }
 
 .prof {
@@ -176,18 +227,18 @@ li {
     line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--prof-color);
 }
 
 .footer {
-    background: #2F303A;
+    background: var(--footer-background);
 }
 
 .address {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7142;
-        color: #FFFFFF;
+        color: var(--address-color);
         font-style: normal;
 }
 
@@ -196,7 +247,15 @@ li {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);}
+    color: var(--footer-link);
+}
+
+.footer-link:hover {
+    color: var(--links-hover);
+}
+.footer-link:focus {
+    color: var(--links-hover)
+}
 
     .filter-tytle {
             font-weight: 500;
@@ -204,12 +263,12 @@ li {
             line-height: 1.625;
             text-align: center;
             letter-spacing: 0.03em;
-            color: #212121;
-            background-color: #fff;
+            color: var(--filter-title-color);
+            background-color: var(--filter-title-background);
     }
 
     .filter-tytle:hover {
-        background-color: #2196F3;
+        background-color: var(--filter-title-hover);
     }
 
     .filter {
@@ -217,7 +276,7 @@ li {
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--filter-color);
     }
 
     .filter-work {
@@ -225,6 +284,15 @@ li {
         font-size: 16px;
         line-height: 1.875;
         letter-spacing: 0.03em;
-        color: #757575;}
+        color: var(--filter-work);
+    }
+
+    .work-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--work-title);
+    }
 
     
