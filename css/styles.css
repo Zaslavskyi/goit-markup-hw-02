@@ -111,6 +111,7 @@ button {
 }
 
 .links-conact {
+    list-style: none;
     text-decoration: none;
     color: var(--links-contact);
 }
