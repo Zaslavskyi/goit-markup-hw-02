@@ -1,0 +1,230 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+* {
+    
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #212121;
+    background: #fff;
+}
+li {
+    list-style: none;
+}
+
+
+.header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1428;
+        letter-spacing: 0.02em;
+        color: #212121;
+        
+}
+
+.logo-beg {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.1923;
+            letter-spacing: 0.03em;
+            color: #2196F3;
+}
+
+.logo-end {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.1923;
+            letter-spacing: 0.03em;
+            color: #000;
+}
+
+.logo-end-down {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;}
+
+.links {
+    color: #212121;
+}
+
+.links:hover {
+    color: #2196F3;
+}
+
+.links:focus {
+    color: #2196F3;
+}
+
+
+.nav-menu, .filter-tytle {
+    cursor: pointer;
+}
+
+
+.order {
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+        background: #2F303A;
+}
+
+.desigion {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.3636;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+
+.button-push {
+        width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+
+.order-button {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+        clip: rect(0 0 0 0);
+}
+
+.advantage {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1428;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+
+.advantage-title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7142;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.work {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1666;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.team {
+        background: #F5F4FA;
+}
+
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.address {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7142;
+        color: #FFFFFF;
+        font-style: normal;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);}
+
+    .filter-tytle {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.625;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;
+            background-color: #fff;
+    }
+
+    .filter-tytle:hover {
+        background-color: #2196F3;
+    }
+
+    .filter {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+    }
+
+    .filter-work {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.875;
+        letter-spacing: 0.03em;
+        color: #757575;}
+
+    
